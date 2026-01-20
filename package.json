@@ -11,7 +11,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "gen": "rm -rf src/__generated__ && orval && node post-generate.js",
+    "gen": "cmd /c \"if exist src\\__generated__ rd /s /q src\\__generated__\" && orval && node post-generate.js",
     "build": "pnpm gen && tsdown"
   },
   "repository": {
