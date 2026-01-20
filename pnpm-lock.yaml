@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@modelcontextprotocol/sdk':
-        specifier: 1.25.2
-        version: 1.25.2
+        specifier: 1.15.0
+        version: 1.15.0
       zod:
         specifier: ^3.25.75
         version: 3.25.75
@@ -277,7 +277,7 @@ packages:
     peerDependencies:
       jsep: ^0.4.0||^1.0.0
 
-  '@modelcontextprotocol/sdk@1.25.2':
+  '@modelcontextprotocol/sdk@1.15.0':
     resolution: {integrity: sha512-67hnl/ROKdb03Vuu0YOr+baKTvf1/5YBHBm9KnZdjdAh8hjt4FRCPD5ucwxGB237sBpzlqQsLy1PFu7z/ekZ9Q==}
     engines: {node: '>=18'}
 
@@ -311,7 +311,7 @@ packages:
   '@orval/hono@7.10.0':
     resolution: {integrity: sha512-bOxTdZxx2BpGQf7fFuCeeUe//ZYDWc6Yz9WOhj3HrnsD06xTRKFWVBi/QZ29QcAPxqwunu/VWwbqoiHHuuX3bA==}
 
-  '@orval/mcp@7.18.0':
+  '@orval/mcp@7.10.0':
     resolution: {integrity: sha512-ztLXGOSxK7jFwPKAeYPR85BjKRh3KTClKEnM2MFmo2FHHojn72DPXRPCmy0Wbw5Ee+JOxK2kIpyx+HZi9XVxiA==}
 
   '@orval/mock@7.10.0':
@@ -602,7 +602,7 @@ packages:
   birpc@2.4.0:
     resolution: {integrity: sha512-5IdNxTyhXHv2UlgnPHQ0h+5ypVmkrYHzL8QT+DwFZ//2N/oNV8Ch+BCRmTJ3x6/z9Axo/cXYBc9eprsUVK/Jsg==}
 
-  body-parser@2.2.1:
+  body-parser@2.2.0:
     resolution: {integrity: sha512-02qvAaxv8tp7fBa/mw1ga98OGm+eCbqzJOKoRt70sLmfEEi+jyBYVTDGfCL/k06/4EMk/z01gCe7HoCH/f2LTg==}
     engines: {node: '>=18'}
 
@@ -728,7 +728,7 @@ packages:
     resolution: {integrity: sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==}
     engines: {node: '>= 0.6.0'}
 
-  diff@8.0.3:
+  diff@8.0.2:
     resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
     engines: {node: '>=0.3.1'}
 
@@ -1138,7 +1138,7 @@ packages:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
-  js-yaml@4.1.1:
+  js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
@@ -1427,7 +1427,7 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  qs@6.14.1:
+  qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
     engines: {node: '>=0.6'}
 
@@ -1777,7 +1777,7 @@ packages:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
 
-  validator@13.15.22:
+  validator@13.15.15:
     resolution: {integrity: sha512-BgWVbCI72aIQy937xbawcs+hrVaN/CZ2UwutgaJ36hGqRrLNM+f5LUT/YPRbo8IV/ASeFzXszezV+y2+rq3l8A==}
     engines: {node: '>= 0.10'}
 
@@ -1858,7 +1858,7 @@ snapshots:
     dependencies:
       '@jsdevtools/ono': 7.1.3
       '@types/json-schema': 7.0.15
-      js-yaml: 4.1.1
+      js-yaml: 4.1.0
 
   '@apidevtools/openapi-schemas@2.1.0': {}
 
@@ -2015,7 +2015,7 @@ snapshots:
       loglevel: 1.9.2
       loglevel-plugin-prefix: 0.8.4
       minimatch: 6.2.0
-      validator: 13.15.22
+      validator: 13.15.15
     transitivePeerDependencies:
       - encoding
 
@@ -2047,7 +2047,7 @@ snapshots:
     dependencies:
       jsep: 1.4.0
 
-  '@modelcontextprotocol/sdk@1.25.2':
+  '@modelcontextprotocol/sdk@1.15.0':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
@@ -2142,7 +2142,7 @@ snapshots:
       - openapi-types
       - supports-color
 
-  '@orval/mcp@7.18.0(openapi-types@12.1.3)':
+  '@orval/mcp@7.10.0(openapi-types@12.1.3)':
     dependencies:
       '@orval/core': 7.10.0(openapi-types@12.1.3)
       '@orval/zod': 7.10.0(openapi-types@12.1.3)
@@ -2525,7 +2525,7 @@ snapshots:
 
   birpc@2.4.0: {}
 
-  body-parser@2.2.1:
+  body-parser@2.2.0:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
@@ -2533,7 +2533,7 @@ snapshots:
       http-errors: 2.0.0
       iconv-lite: 0.6.3
       on-finished: 2.4.1
-      qs: 6.14.1
+      qs: 6.14.0
       raw-body: 3.0.0
       type-is: 2.0.1
     transitivePeerDependencies:
@@ -2661,7 +2661,7 @@ snapshots:
 
   dependency-graph@0.11.0: {}
 
-  diff@8.0.3: {}
+  diff@8.0.2: {}
 
   dir-glob@3.0.1:
     dependencies:
@@ -2844,7 +2844,7 @@ snapshots:
   express@5.1.0:
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.2.1
+      body-parser: 2.2.0
       content-disposition: 1.0.0
       content-type: 1.0.5
       cookie: 0.7.2
@@ -2862,7 +2862,7 @@ snapshots:
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.7
-      qs: 6.14.1
+      qs: 6.14.0
       range-parser: 1.2.1
       router: 2.2.0
       send: 1.2.0
@@ -3169,7 +3169,7 @@ snapshots:
 
   jiti@2.4.2: {}
 
-  js-yaml@4.1.1:
+  js-yaml@4.1.0:
     dependencies:
       argparse: 2.0.1
 
@@ -3385,7 +3385,7 @@ snapshots:
       '@orval/core': 7.10.0(openapi-types@12.1.3)
       '@orval/fetch': 7.10.0(openapi-types@12.1.3)
       '@orval/hono': 7.10.0(openapi-types@12.1.3)
-      '@orval/mcp': 7.18.0(openapi-types@12.1.3)
+      '@orval/mcp': 7.10.0(openapi-types@12.1.3)
       '@orval/mock': 7.10.0(openapi-types@12.1.3)
       '@orval/query': 7.10.0(openapi-types@12.1.3)
       '@orval/swr': 7.10.0(openapi-types@12.1.3)
@@ -3455,7 +3455,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  qs@6.14.1:
+  qs@6.14.0:
     dependencies:
       side-channel: 1.1.0
 
@@ -3790,7 +3790,7 @@ snapshots:
       cac: 6.7.14
       chokidar: 4.0.3
       debug: 4.4.1
-      diff: 8.0.3
+      diff: 8.0.2
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.24
@@ -3895,7 +3895,7 @@ snapshots:
 
   utility-types@3.11.0: {}
 
-  validator@13.15.22: {}
+  validator@13.15.15: {}
 
   vary@1.1.2: {}
 
