@@ -109,137 +109,137 @@ import {
 
 // Import generated schemas
 import {
-  AddRelatedIssueBody,
-  AddRelatedIssueParams,
-  AddUserToGroupBody,
-  AddUserToGroupParams,
-  AddWatcherBody,
-  AddWatcherParams,
-  ArchiveProjectParams,
-  CloseProjectParams,
-  CreateFileBody,
-  CreateFileParams,
-  CreateGroupBody,
-  CreateGroupParams,
-  CreateIssueBody,
-  CreateIssueCategoryBody,
-  CreateIssueCategoryParams,
-  CreateIssueParams,
-  CreateIssueRelationBody,
-  CreateIssueRelationParams,
-  CreateMembershipBody,
-  CreateMembershipParams,
-  CreateNewsBody,
-  CreateNewsParams,
-  CreateProjectBody,
-  CreateProjectParams,
-  CreateTimeEntryBody,
-  CreateTimeEntryParams,
-  CreateUserBody,
-  CreateUserParams,
-  CreateVersionBody,
-  CreateVersionParams,
-  DeleteAttachmentParams,
-  DeleteGroupParams,
-  DeleteIssueCategoryParams,
-  DeleteIssueCategoryQueryParams,
-  DeleteIssueParams,
-  DeleteIssueRelationParams,
-  DeleteMembershipParams,
-  DeleteNewsParams,
-  DeleteProjectParams,
-  DeleteTimeEntryParams,
-  DeleteUserParams,
-  DeleteVersionParams,
-  DeleteWikiPageParams,
-  GetAttachmentParams,
-  GetCurrentUserParams,
-  GetCurrentUserQueryParams,
-  GetCustomFieldsParams,
-  GetDocumentCategoriesParams,
-  GetFilesParams,
-  GetGroupParams,
-  GetGroupQueryParams,
-  GetGroupsParams,
-  GetIssueCategoriesParams,
-  GetIssueCategoriesQueryParams,
-  GetIssueCategoryParams,
-  GetIssueParams,
-  GetIssuePrioritiesParams,
-  GetIssueQueryParams,
-  GetIssueRelationParams,
-  GetIssueRelationsParams,
-  GetIssuesParams,
-  GetIssuesQueryParams,
-  GetIssueStatusesParams,
-  GetMembershipParams,
-  GetMembershipsParams,
-  GetMembershipsQueryParams,
-  GetMyAccountParams,
-  GetNewsListByProjectParams,
-  GetNewsListByProjectQueryParams,
-  GetNewsListParams,
-  GetNewsListQueryParams,
-  GetNewsParams,
-  GetNewsQueryParams,
-  GetProjectParams,
-  GetProjectQueryParams,
-  GetProjectsParams,
-  GetProjectsQueryParams,
-  GetQueriesParams,
-  GetQueriesQueryParams,
-  GetRoleParams,
-  GetRolesParams,
-  GetTimeEntriesParams,
-  GetTimeEntriesQueryParams,
-  GetTimeEntryActivitiesParams,
-  GetTimeEntryParams,
-  GetTrackersParams,
-  GetUserParams,
-  GetUserQueryParams,
-  GetUsersParams,
-  GetUsersQueryParams,
-  GetVersionsByProjectParams,
-  GetVersionsByProjectQueryParams,
-  GetVersionsParams,
-  GetWikiPageByVersionParams,
-  GetWikiPageByVersionQueryParams,
-  GetWikiPageParams,
-  GetWikiPageQueryParams,
-  GetWikiPagesParams,
-  RemoveRelatedIssueParams,
-  RemoveUserFromGroupParams,
-  RemoveWatcherParams,
-  ReopenProjectParams,
-  SearchParams,
-  SearchQueryParams,
-   UnarchiveProjectParams,
-  UpdateAttachmentBody,
-  UpdateAttachmentParams,
-  UpdateGroupBody,
-  UpdateGroupParams,
-  UpdateIssueBody,
-  UpdateIssueCategoryBody,
-  UpdateIssueCategoryParams,
-  UpdateIssueParams,
-  UpdateJournalBody,
-  UpdateJournalParams,
-  UpdateMembershipBody,
-  UpdateMembershipParams,
-  UpdateMyAccountBody,
-  UpdateMyAccountParams,
-  UpdateNewsBody,
-  UpdateNewsParams,
-  UpdateProjectBody,
-  UpdateProjectParams,
-  UpdateTimeEntryBody,
-  UpdateTimeEntryParams,
-  UpdateUserBody,
-  UpdateUserParams,
-  UpdateVersionBody,
-  UpdateVersionParams,
-  UpdateWikiPageBody,
-  UpdateWikiPageParams,
+  addRelatedIssueBody,
+  addRelatedIssueParams,
+  addUserToGroupBody,
+  addUserToGroupParams,
+  addWatcherBody,
+  addWatcherParams,
+  archiveProjectParams,
+  closeProjectParams,
+  createFileBody,
+  createFileParams,
+  createGroupBody,
+  createGroupParams,
+  createIssueBody,
+  createIssueCategoryBody,
+  createIssueCategoryParams,
+  createIssueParams,
+  createIssueRelationBody,
+  createIssueRelationParams,
+  createMembershipBody,
+  createMembershipParams,
+  createNewsBody,
+  createNewsParams,
+  createProjectBody,
+  createProjectParams,
+  createTimeEntryBody,
+  createTimeEntryParams,
+  createUserBody,
+  createUserParams,
+  createVersionBody,
+  createVersionParams,
+  deleteAttachmentParams,
+  deleteGroupParams,
+  deleteIssueCategoryParams,
+  deleteIssueCategoryQueryParams,
+  deleteIssueParams,
+  deleteIssueRelationParams,
+  deleteMembershipParams,
+  deleteNewsParams,
+  deleteProjectParams,
+  deleteTimeEntryParams,
+  deleteUserParams,
+  deleteVersionParams,
+  deleteWikiPageParams,
+  getAttachmentParams,
+  getCurrentUserParams,
+  getCurrentUserQueryParams,
+  getCustomFieldsParams,
+  getDocumentCategoriesParams,
+  getFilesParams,
+  getGroupParams,
+  getGroupQueryParams,
+  getGroupsParams,
+  getIssueCategoriesParams,
+  getIssueCategoriesQueryParams,
+  getIssueCategoryParams,
+  getIssueParams,
+  getIssuePrioritiesParams,
+  getIssueQueryParams,
+  getIssueRelationParams,
+  getIssueRelationsParams,
+  getIssuesParams,
+  getIssuesQueryParams,
+  getIssueStatusesParams,
+  getMembershipParams,
+  getMembershipsParams,
+  getMembershipsQueryParams,
+  getMyAccountParams,
+  getNewsListByProjectParams,
+  getNewsListByProjectQueryParams,
+  getNewsListParams,
+  getNewsListQueryParams,
+  getNewsParams,
+  getNewsQueryParams,
+  getProjectParams,
+  getProjectQueryParams,
+  getProjectsParams,
+  getProjectsQueryParams,
+  getQueriesParams,
+  getQueriesQueryParams,
+  getRoleParams,
+  getRolesParams,
+  getTimeEntriesParams,
+  getTimeEntriesQueryParams,
+  getTimeEntryActivitiesParams,
+  getTimeEntryParams,
+  getTrackersParams,
+  getUserParams,
+  getUserQueryParams,
+  getUsersParams,
+  getUsersQueryParams,
+  getVersionsByProjectParams,
+  getVersionsByProjectQueryParams,
+  getVersionsParams,
+  getWikiPageByVersionParams,
+  getWikiPageByVersionQueryParams,
+  getWikiPageParams,
+  getWikiPageQueryParams,
+  getWikiPagesParams,
+  removeRelatedIssueParams,
+  removeUserFromGroupParams,
+  removeWatcherParams,
+  reopenProjectParams,
+  searchParams,
+  searchQueryParams,
+  unarchiveProjectParams,
+  updateAttachmentBody,
+  updateAttachmentParams,
+  updateGroupBody,
+  updateGroupParams,
+  updateIssueBody,
+  updateIssueCategoryBody,
+  updateIssueCategoryParams,
+  updateIssueParams,
+  updateJournalBody,
+  updateJournalParams,
+  updateMembershipBody,
+  updateMembershipParams,
+  updateMyAccountBody,
+  updateMyAccountParams,
+  updateNewsBody,
+  updateNewsParams,
+  updateProjectBody,
+  updateProjectParams,
+  updateTimeEntryBody,
+  updateTimeEntryParams,
+  updateUserBody,
+  updateUserParams,
+  updateVersionBody,
+  updateVersionParams,
+  updateWikiPageBody,
+  updateWikiPageParams,
 } from "./__generated__/tool-schemas.zod.js";
 
 // Import custom attachment functionality
@@ -315,252 +315,252 @@ registerTool(
   "getIssues",
   "List issues",
   ToolType.READ_ONLY,
-  { pathParams: GetIssuesParams, queryParams: GetIssuesQueryParams },
+  { pathParams: getIssuesParams, queryParams: getIssuesQueryParams },
   getIssuesHandler
 );
 registerTool(
   "createIssue",
   "Create issue",
   ToolType.WRITE,
-  { pathParams: CreateIssueParams, bodyParams: CreateIssueBody },
+  { pathParams: createIssueParams, bodyParams: createIssueBody },
   createIssueHandler
 );
 registerTool(
   "getIssue",
   "Show issue",
   ToolType.READ_ONLY,
-  { pathParams: GetIssueParams, queryParams: GetIssueQueryParams },
+  { pathParams: getIssueParams, queryParams: getIssueQueryParams },
   getIssueHandler
 );
 registerTool(
   "updateIssue",
   "Update issue",
   ToolType.WRITE,
-  { pathParams: UpdateIssueParams, bodyParams: UpdateIssueBody },
+  { pathParams: updateIssueParams, bodyParams: updateIssueBody },
   updateIssueHandler
 );
 registerTool(
   "deleteIssue",
   "Delete issue",
   ToolType.WRITE,
-  { pathParams: DeleteIssueParams },
+  { pathParams: deleteIssueParams },
   deleteIssueHandler
 );
 registerTool(
   "addWatcher",
   "Add watcher",
   ToolType.WRITE,
-  { pathParams: AddWatcherParams, bodyParams: AddWatcherBody },
+  { pathParams: addWatcherParams, bodyParams: addWatcherBody },
   addWatcherHandler
 );
 registerTool(
   "removeWatcher",
   "Remove watcher",
   ToolType.WRITE,
-  { pathParams: RemoveWatcherParams },
+  { pathParams: removeWatcherParams },
   removeWatcherHandler
 );
 registerTool(
   "getProjects",
   "List projects",
   ToolType.READ_ONLY,
-  { pathParams: GetProjectsParams, queryParams: GetProjectsQueryParams },
+  { pathParams: getProjectsParams, queryParams: getProjectsQueryParams },
   getProjectsHandler
 );
 registerTool(
   "createProject",
   "Create project",
   ToolType.WRITE,
-  { pathParams: CreateProjectParams, bodyParams: CreateProjectBody },
+  { pathParams: createProjectParams, bodyParams: createProjectBody },
   createProjectHandler
 );
 registerTool(
   "getProject",
   "Show project",
   ToolType.READ_ONLY,
-  { pathParams: GetProjectParams, queryParams: GetProjectQueryParams },
+  { pathParams: getProjectParams, queryParams: getProjectQueryParams },
   getProjectHandler
 );
 registerTool(
   "updateProject",
   "Update project",
   ToolType.WRITE,
-  { pathParams: UpdateProjectParams, bodyParams: UpdateProjectBody },
+  { pathParams: updateProjectParams, bodyParams: updateProjectBody },
   updateProjectHandler
 );
 registerTool(
   "deleteProject",
   "Delete project",
   ToolType.WRITE,
-  { pathParams: DeleteProjectParams },
+  { pathParams: deleteProjectParams },
   deleteProjectHandler
 );
 registerTool(
   "archiveProject",
   "Archive project",
   ToolType.WRITE,
-  { pathParams: ArchiveProjectParams },
+  { pathParams: archiveProjectParams },
   archiveProjectHandler
 );
 registerTool(
   "unarchiveProject",
   "Unarchive project",
   ToolType.WRITE,
-  { pathParams: UnarchiveProjectParams },
+  { pathParams: unarchiveProjectParams },
   unarchiveProjectHandler
 );
 registerTool(
   "getMemberships",
   "List memberships",
   ToolType.READ_ONLY,
-  { pathParams: GetMembershipsParams, queryParams: GetMembershipsQueryParams },
+  { pathParams: getMembershipsParams, queryParams: getMembershipsQueryParams },
   getMembershipsHandler
 );
 registerTool(
   "createMembership",
   "Create membership",
   ToolType.WRITE,
-  { pathParams: CreateMembershipParams, bodyParams: CreateMembershipBody },
+  { pathParams: createMembershipParams, bodyParams: createMembershipBody },
   createMembershipHandler
 );
 registerTool(
   "getMembership",
   "Show membership",
   ToolType.READ_ONLY,
-  { pathParams: GetMembershipParams },
+  { pathParams: getMembershipParams },
   getMembershipHandler
 );
 registerTool(
   "updateMembership",
   "Update membership",
   ToolType.WRITE,
-  { pathParams: UpdateMembershipParams, bodyParams: UpdateMembershipBody },
+  { pathParams: updateMembershipParams, bodyParams: updateMembershipBody },
   updateMembershipHandler
 );
 registerTool(
   "deleteMembership",
   "Delete membership",
   ToolType.WRITE,
-  { pathParams: DeleteMembershipParams },
+  { pathParams: deleteMembershipParams },
   deleteMembershipHandler
 );
 registerTool(
   "closeProject",
   "Close project",
   ToolType.WRITE,
-  { pathParams: CloseProjectParams },
+  { pathParams: closeProjectParams },
   closeProjectHandler
 );
 registerTool(
   "reopenProject",
   "Reopen project",
   ToolType.WRITE,
-  { pathParams: ReopenProjectParams },
+  { pathParams: reopenProjectParams },
   reopenProjectHandler
 );
 registerTool(
   "getUsers",
   "List users",
   ToolType.READ_ONLY,
-  { pathParams: GetUsersParams, queryParams: GetUsersQueryParams },
+  { pathParams: getUsersParams, queryParams: getUsersQueryParams },
   getUsersHandler
 );
 registerTool(
   "createUser",
   "Create user",
   ToolType.WRITE,
-  { pathParams: CreateUserParams, bodyParams: CreateUserBody },
+  { pathParams: createUserParams, bodyParams: createUserBody },
   createUserHandler
 );
 registerTool(
   "getUser",
   "Show user",
   ToolType.READ_ONLY,
-  { pathParams: GetUserParams, queryParams: GetUserQueryParams },
+  { pathParams: getUserParams, queryParams: getUserQueryParams },
   getUserHandler
 );
 registerTool(
   "updateUser",
   "Update user",
   ToolType.WRITE,
-  { pathParams: UpdateUserParams, bodyParams: UpdateUserBody },
+  { pathParams: updateUserParams, bodyParams: updateUserBody },
   updateUserHandler
 );
 registerTool(
   "deleteUser",
   "Delete user",
   ToolType.WRITE,
-  { pathParams: DeleteUserParams },
+  { pathParams: deleteUserParams },
   deleteUserHandler
 );
 registerTool(
   "getCurrentUser",
   "Show current user",
   ToolType.READ_ONLY,
-  { pathParams: GetCurrentUserParams, queryParams: GetCurrentUserQueryParams },
+  { pathParams: getCurrentUserParams, queryParams: getCurrentUserQueryParams },
   getCurrentUserHandler
 );
 registerTool(
   "getTimeEntries",
   "List time entries",
   ToolType.READ_ONLY,
-  { pathParams: GetTimeEntriesParams, queryParams: GetTimeEntriesQueryParams },
+  { pathParams: getTimeEntriesParams, queryParams: getTimeEntriesQueryParams },
   getTimeEntriesHandler
 );
 registerTool(
   "createTimeEntry",
   "Create time entry",
   ToolType.WRITE,
-  { pathParams: CreateTimeEntryParams, bodyParams: CreateTimeEntryBody },
+  { pathParams: createTimeEntryParams, bodyParams: createTimeEntryBody },
   createTimeEntryHandler
 );
 registerTool(
   "getTimeEntry",
   "Show time entry",
   ToolType.READ_ONLY,
-  { pathParams: GetTimeEntryParams },
+  { pathParams: getTimeEntryParams },
   getTimeEntryHandler
 );
 registerTool(
   "updateTimeEntry",
   "Update time entry",
   ToolType.WRITE,
-  { pathParams: UpdateTimeEntryParams, bodyParams: UpdateTimeEntryBody },
+  { pathParams: updateTimeEntryParams, bodyParams: updateTimeEntryBody },
   updateTimeEntryHandler
 );
 registerTool(
   "deleteTimeEntry",
   "Delete time entry",
   ToolType.WRITE,
-  { pathParams: DeleteTimeEntryParams },
+  { pathParams: deleteTimeEntryParams },
   deleteTimeEntryHandler
 );
 registerTool(
   "getNewsList",
   "List news",
   ToolType.READ_ONLY,
-  { pathParams: GetNewsListParams, queryParams: GetNewsListQueryParams },
+  { pathParams: getNewsListParams, queryParams: getNewsListQueryParams },
   getNewsListHandler
 );
 registerTool(
   "getNews",
   "Show news",
   ToolType.READ_ONLY,
-  { pathParams: GetNewsParams, queryParams: GetNewsQueryParams },
+  { pathParams: getNewsParams, queryParams: getNewsQueryParams },
   getNewsHandler
 );
 registerTool(
   "updateNews",
   "Update news",
   ToolType.WRITE,
-  { pathParams: UpdateNewsParams, bodyParams: UpdateNewsBody },
+  { pathParams: updateNewsParams, bodyParams: updateNewsBody },
   updateNewsHandler
 );
 registerTool(
   "deleteNews",
   "Delete news",
   ToolType.WRITE,
-  { pathParams: DeleteNewsParams },
+  { pathParams: deleteNewsParams },
   deleteNewsHandler
 );
 registerTool(
@@ -568,8 +568,8 @@ registerTool(
   "List news by project",
   ToolType.READ_ONLY,
   {
-    pathParams: GetNewsListByProjectParams,
-    queryParams: GetNewsListByProjectQueryParams,
+    pathParams: getNewsListByProjectParams,
+    queryParams: getNewsListByProjectQueryParams,
   },
   getNewsListByProjectHandler
 );
@@ -577,14 +577,14 @@ registerTool(
   "createNews",
   "Create news",
   ToolType.WRITE,
-  { pathParams: CreateNewsParams, bodyParams: CreateNewsBody },
+  { pathParams: createNewsParams, bodyParams: createNewsBody },
   createNewsHandler
 );
 registerTool(
   "getIssueRelations",
   "List issue relations",
   ToolType.READ_ONLY,
-  { pathParams: GetIssueRelationsParams },
+  { pathParams: getIssueRelationsParams },
   getIssueRelationsHandler
 );
 registerTool(
@@ -592,8 +592,8 @@ registerTool(
   "Create issue relation",
   ToolType.WRITE,
   {
-    pathParams: CreateIssueRelationParams,
-    bodyParams: CreateIssueRelationBody,
+    pathParams: createIssueRelationParams,
+    bodyParams: createIssueRelationBody,
   },
   createIssueRelationHandler
 );
@@ -601,14 +601,14 @@ registerTool(
   "getIssueRelation",
   "Show issue relation",
   ToolType.READ_ONLY,
-  { pathParams: GetIssueRelationParams },
+  { pathParams: getIssueRelationParams },
   getIssueRelationHandler
 );
 registerTool(
   "deleteIssueRelation",
   "Delete issue relation",
   ToolType.WRITE,
-  { pathParams: DeleteIssueRelationParams },
+  { pathParams: deleteIssueRelationParams },
   deleteIssueRelationHandler
 );
 registerTool(
@@ -616,8 +616,8 @@ registerTool(
   "List versions by project",
   ToolType.READ_ONLY,
   {
-    pathParams: GetVersionsByProjectParams,
-    queryParams: GetVersionsByProjectQueryParams,
+    pathParams: getVersionsByProjectParams,
+    queryParams: getVersionsByProjectQueryParams,
   },
   getVersionsByProjectHandler
 );
@@ -625,56 +625,56 @@ registerTool(
   "createVersion",
   "Create version",
   ToolType.WRITE,
-  { pathParams: CreateVersionParams, bodyParams: CreateVersionBody },
+  { pathParams: createVersionParams, bodyParams: createVersionBody },
   createVersionHandler
 );
 registerTool(
   "getVersions",
   "Show version",
   ToolType.READ_ONLY,
-  { pathParams: GetVersionsParams },
+  { pathParams: getVersionsParams },
   getVersionsHandler
 );
 registerTool(
   "updateVersion",
   "Update version",
   ToolType.WRITE,
-  { pathParams: UpdateVersionParams, bodyParams: UpdateVersionBody },
+  { pathParams: updateVersionParams, bodyParams: updateVersionBody },
   updateVersionHandler
 );
 registerTool(
   "deleteVersion",
   "Delete version",
   ToolType.WRITE,
-  { pathParams: DeleteVersionParams },
+  { pathParams: deleteVersionParams },
   deleteVersionHandler
 );
 registerTool(
   "getWikiPages",
   "List wiki pages",
   ToolType.READ_ONLY,
-  { pathParams: GetWikiPagesParams },
+  { pathParams: getWikiPagesParams },
   getWikiPagesHandler
 );
 registerTool(
   "getWikiPage",
   "Show wiki page",
   ToolType.READ_ONLY,
-  { pathParams: GetWikiPageParams, queryParams: GetWikiPageQueryParams },
+  { pathParams: getWikiPageParams, queryParams: getWikiPageQueryParams },
   getWikiPageHandler
 );
 registerTool(
   "updateWikiPage",
   "Create or update wiki page",
   ToolType.WRITE,
-  { pathParams: UpdateWikiPageParams, bodyParams: UpdateWikiPageBody },
+  { pathParams: updateWikiPageParams, bodyParams: updateWikiPageBody },
   updateWikiPageHandler
 );
 registerTool(
   "deleteWikiPage",
   "Delete wiki page",
   ToolType.WRITE,
-  { pathParams: DeleteWikiPageParams },
+  { pathParams: deleteWikiPageParams },
   deleteWikiPageHandler
 );
 registerTool(
@@ -682,8 +682,8 @@ registerTool(
   "Show wiki page by specific version",
   ToolType.READ_ONLY,
   {
-    pathParams: GetWikiPageByVersionParams,
-    queryParams: GetWikiPageByVersionQueryParams,
+    pathParams: getWikiPageByVersionParams,
+    queryParams: getWikiPageByVersionQueryParams,
   },
   getWikiPageByVersionHandler
 );
@@ -691,42 +691,42 @@ registerTool(
   "getQueries",
   "List queries",
   ToolType.READ_ONLY,
-  { pathParams: GetQueriesParams, queryParams: GetQueriesQueryParams },
+  { pathParams: getQueriesParams, queryParams: getQueriesQueryParams },
   getQueriesHandler
 );
 registerTool(
   "getAttachment",
   "Show attachment",
   ToolType.READ_ONLY,
-  { pathParams: GetAttachmentParams },
+  { pathParams: getAttachmentParams },
   getAttachmentHandler
 );
 registerTool(
   "updateAttachment",
   "Update attachment",
   ToolType.WRITE,
-  { pathParams: UpdateAttachmentParams, bodyParams: UpdateAttachmentBody },
+  { pathParams: updateAttachmentParams, bodyParams: updateAttachmentBody },
   updateAttachmentHandler
 );
 registerTool(
   "deleteAttachment",
   "Delete attachment",
   ToolType.WRITE,
-  { pathParams: DeleteAttachmentParams },
+  { pathParams: deleteAttachmentParams },
   deleteAttachmentHandler
 );
 registerTool(
   "getIssueStatuses",
   "List issue statuses",
   ToolType.READ_ONLY,
-  { pathParams: GetIssueStatusesParams },
+  { pathParams: getIssueStatusesParams },
   getIssueStatusesHandler
 );
 registerTool(
   "getTrackers",
   "List trackers",
   ToolType.READ_ONLY,
-  { pathParams: GetTrackersParams },
+  { pathParams: getTrackersParams },
   getTrackersHandler
 );
 registerTool(
@@ -734,8 +734,8 @@ registerTool(
   "List issue categories",
   ToolType.READ_ONLY,
   {
-    pathParams: GetIssueCategoriesParams,
-    queryParams: GetIssueCategoriesQueryParams,
+    pathParams: getIssueCategoriesParams,
+    queryParams: getIssueCategoriesQueryParams,
   },
   getIssueCategoriesHandler
 );
@@ -744,8 +744,8 @@ registerTool(
   "Create issue category",
   ToolType.WRITE,
   {
-    pathParams: CreateIssueCategoryParams,
-    bodyParams: CreateIssueCategoryBody,
+    pathParams: createIssueCategoryParams,
+    bodyParams: createIssueCategoryBody,
   },
   createIssueCategoryHandler
 );
@@ -753,28 +753,28 @@ registerTool(
   "getIssuePriorities",
   "List issue priorities",
   ToolType.READ_ONLY,
-  { pathParams: GetIssuePrioritiesParams },
+  { pathParams: getIssuePrioritiesParams },
   getIssuePrioritiesHandler
 );
 registerTool(
   "getTimeEntryActivities",
   "List time entry activities",
   ToolType.READ_ONLY,
-  { pathParams: GetTimeEntryActivitiesParams },
+  { pathParams: getTimeEntryActivitiesParams },
   getTimeEntryActivitiesHandler
 );
 registerTool(
   "getDocumentCategories",
   "List document categories",
   ToolType.READ_ONLY,
-  { pathParams: GetDocumentCategoriesParams },
+  { pathParams: getDocumentCategoriesParams },
   getDocumentCategoriesHandler
 );
 registerTool(
   "getIssueCategory",
   "Show issue category",
   ToolType.READ_ONLY,
-  { pathParams: GetIssueCategoryParams },
+  { pathParams: getIssueCategoryParams },
   getIssueCategoryHandler
 );
 registerTool(
@@ -782,8 +782,8 @@ registerTool(
   "Update issue category",
   ToolType.WRITE,
   {
-    pathParams: UpdateIssueCategoryParams,
-    bodyParams: UpdateIssueCategoryBody,
+    pathParams: updateIssueCategoryParams,
+    bodyParams: updateIssueCategoryBody,
   },
   updateIssueCategoryHandler
 );
@@ -792,8 +792,8 @@ registerTool(
   "Delete issue category",
   ToolType.WRITE,
   {
-    pathParams: DeleteIssueCategoryParams,
-    queryParams: DeleteIssueCategoryQueryParams,
+    pathParams: deleteIssueCategoryParams,
+    queryParams: deleteIssueCategoryQueryParams,
   },
   deleteIssueCategoryHandler
 );
@@ -801,126 +801,126 @@ registerTool(
   "getRoles",
   "List roles",
   ToolType.READ_ONLY,
-  { pathParams: GetRolesParams },
+  { pathParams: getRolesParams },
   getRolesHandler
 );
 registerTool(
   "getRole",
   "Show role",
   ToolType.READ_ONLY,
-  { pathParams: GetRoleParams },
+  { pathParams: getRoleParams },
   getRoleHandler
 );
 registerTool(
   "getGroups",
   "List groups",
   ToolType.READ_ONLY,
-  { pathParams: GetGroupsParams },
+  { pathParams: getGroupsParams },
   getGroupsHandler
 );
 registerTool(
   "createGroup",
   "Create group",
   ToolType.WRITE,
-  { pathParams: CreateGroupParams, bodyParams: CreateGroupBody },
+  { pathParams: createGroupParams, bodyParams: createGroupBody },
   createGroupHandler
 );
 registerTool(
   "getGroup",
   "Show group",
   ToolType.READ_ONLY,
-  { pathParams: GetGroupParams, queryParams: GetGroupQueryParams },
+  { pathParams: getGroupParams, queryParams: getGroupQueryParams },
   getGroupHandler
 );
 registerTool(
   "updateGroup",
   "Update group",
   ToolType.WRITE,
-  { pathParams: UpdateGroupParams, bodyParams: UpdateGroupBody },
+  { pathParams: updateGroupParams, bodyParams: updateGroupBody },
   updateGroupHandler
 );
 registerTool(
   "deleteGroup",
   "Delete group",
   ToolType.WRITE,
-  { pathParams: DeleteGroupParams },
+  { pathParams: deleteGroupParams },
   deleteGroupHandler
 );
 registerTool(
   "addUserToGroup",
   "Add user to group",
   ToolType.WRITE,
-  { pathParams: AddUserToGroupParams, bodyParams: AddUserToGroupBody },
+  { pathParams: addUserToGroupParams, bodyParams: addUserToGroupBody },
   addUserToGroupHandler
 );
 registerTool(
   "removeUserFromGroup",
   "Remove user from group",
   ToolType.WRITE,
-  { pathParams: RemoveUserFromGroupParams },
+  { pathParams: removeUserFromGroupParams },
   removeUserFromGroupHandler
 );
 registerTool(
   "getCustomFields",
   "List custom fields",
   ToolType.READ_ONLY,
-  { pathParams: GetCustomFieldsParams },
+  { pathParams: getCustomFieldsParams },
   getCustomFieldsHandler
 );
 registerTool(
   "search",
   "Search",
   ToolType.READ_ONLY,
-  { pathParams: SearchParams, queryParams: SearchQueryParams },
+  { pathParams: searchParams, queryParams: searchQueryParams },
   searchHandler
 );
 registerTool(
   "getFiles",
   "List files",
   ToolType.READ_ONLY,
-  { pathParams: GetFilesParams },
+  { pathParams: getFilesParams },
   getFilesHandler
 );
 registerTool(
   "createFile",
   "Create file",
   ToolType.WRITE,
-  { pathParams: CreateFileParams, bodyParams: CreateFileBody },
+  { pathParams: createFileParams, bodyParams: createFileBody },
   createFileHandler
 );
 registerTool(
   "getMyAccount",
   "Show my account",
   ToolType.READ_ONLY,
-  { pathParams: GetMyAccountParams },
+  { pathParams: getMyAccountParams },
   getMyAccountHandler
 );
 registerTool(
   "updateMyAccount",
   "Update my account",
   ToolType.WRITE,
-  { pathParams: UpdateMyAccountParams, bodyParams: UpdateMyAccountBody },
+  { pathParams: updateMyAccountParams, bodyParams: updateMyAccountBody },
   updateMyAccountHandler
 );
 registerTool(
   "updateJournal",
   "Update journal",
   ToolType.WRITE,
-  { pathParams: UpdateJournalParams, bodyParams: UpdateJournalBody },
+  { pathParams: updateJournalParams, bodyParams: updateJournalBody },
   updateJournalHandler
 );
 registerTool(
   "addRelatedIssue",
   "Add related issue",
   ToolType.WRITE,
-  { pathParams: AddRelatedIssueParams, bodyParams: AddRelatedIssueBody },
+  { pathParams: addRelatedIssueParams, bodyParams: addRelatedIssueBody },
   addRelatedIssueHandler
 );
 registerTool(
   "removeRelatedIssue",
   "Remove related issue",
   ToolType.WRITE,
-  { pathParams: RemoveRelatedIssueParams },
+  { pathParams: removeRelatedIssueParams },
   removeRelatedIssueHandler
 );
 
